@@ -43,3 +43,24 @@ npx npm-check-updates
  ```bash
  npx npm-check-updates -u
  ```
+
+3. Install the new major versions:
+
+```bash
+npm install
+```
+
+4. Updating the npm CLI Itself
+
+If you intended to update the global npm package manager command-line tool itself to the latest stable release, run:
+
+```bash
+npm install -g npm@latest
+```
+
+(Note: Linux and macOS users may need to prefix this command with sudo depending on their permissions configuration).
+
+If you want to tailor the next steps to your workflow, let me know:
+• Are you trying to update a **specific package**, or **everything** at once?
+• Do you want to safely update within **minor/patch versions**, or do you need to jump to **major breaking releases**?
+• Are you encountering a **permission error** or a specific **terminal warning**?
